@@ -15,7 +15,7 @@ require_once "../classes/conexao.php";
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Chamados</title>
+  <title>Abertura de Chamados</title>
 
   <?php //require_once "dependencias.php"; ?>
 
@@ -86,32 +86,12 @@ require_once "../classes/conexao.php";
                               </select>
                         </div>
                   </div>                 
-								</div>
-
-                                           
+								</div>                                           
                     <div class="form-group">
                       <label for="mensagem" class="font-weight-bold">Problema:</label>
                       <textarea class="form-control" name="problema" id="problema" placeholder="Digite a mensagem..."></textarea>
                     </div>
-                    <hr>  
-                    <div class="form-group">
-                      <label for="mensagem" class="font-weight-bold">Serviço Executado:</label>
-                      <textarea class="form-control" name="servicoexecutado" id="servicoexecutado" placeholder="Digite a mensagem..."></textarea>
-                    </div>
-                    <div class="form-group">
-                    <label for="mensagem" class="font-weight-bold">Serviço Complementar:</label>
-                    <textarea class="form-control" name="servicocomplementar" id="servicocomplementar" placeholder="Digite a mensagem..."></textarea>
-                  </div>
-                  <div class="form-row">
-                    <div class="form-group col-md-2">
-                    <label for="inputZip"class="font-weight-bold">Hora Início:</label>
-                    <input type="time" class="form-control" name="inicio" id="inicio">
-                  </div>
-                  <div class="form-group col-md-2">
-                    <label for="inputZip" class="font-weight-bold">Hora Fim:</label>
-                    <input type="time" class="form-control" name="fim" id="fim">
-                  </div>
-                </div>
+                    <hr>          
 
               <div class="form-group text-center">
                 <button class="btn btn-primary" id="btnAdicionarCategoria">SALVAR</button>
